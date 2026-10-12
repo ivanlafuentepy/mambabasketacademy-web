@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamba Basket Academy</title>
+  <meta name="description" content="Mamba Basket Academy — academia de básquet para chicos en Asunción, Paraguay.">
+  <meta property="og:title" content="Mamba Basket Academy">
+  <meta property="og:description" content="Academia de básquet para chicos en Asunción, Paraguay.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mambabasketacademy.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #07090d;
+      --dark: #0e1218;
+      --blue: #1e90ff;
+      --blue-light: #5fb3ff;
+      --orange: #f0a030;
+      --text: #f4f6f9;
+      --muted: #9aa5b5;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: radial-gradient(ellipse at 50% 0%, #15202e 0%, var(--black) 60%);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 32px 16px;
+    }
+    main { max-width: 640px; }
+    .marca {
+      font-weight: 800;
+      font-size: clamp(2.4rem, 9vw, 4.6rem);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+    }
+    .marca span { color: var(--blue); }
+    .sub {
+      margin-top: 14px;
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      font-size: clamp(0.72rem, 2.4vw, 0.95rem);
+      color: var(--orange);
+    }
+    .linea {
+      width: 72px; height: 4px; margin: 28px auto;
+      background: linear-gradient(90deg, var(--blue), var(--orange));
+      border-radius: 2px;
+    }
+    p { color: var(--muted); font-size: 1.05rem; line-height: 1.6; }
+    .pronto {
+      display: inline-block; margin-top: 28px; padding: 12px 22px;
+      border: 1px solid var(--blue); border-radius: 999px;
+      color: var(--blue-light); font-weight: 600; letter-spacing: 0.08em;
+      text-transform: uppercase; font-size: 0.85rem;
+    }
+    footer { margin-top: 48px; color: var(--muted); font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 class="marca">Mamba <span>Basket</span><br>Academy</h1>
+    <div class="sub">Más que básquet, mejores personas</div>
+    <div class="linea"></div>
+    <p>Academia de básquet para chicos en Asunción, Paraguay.</p>
+    <div class="pronto">Próximamente</div>
+    <footer>© 2026 Mamba Basket Academy</footer>
+  </main>
+</body>
+</html>
